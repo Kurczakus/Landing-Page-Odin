@@ -9,14 +9,15 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
     color: #F9FAF8;
+    padding:10px 140px;
     
 }
 
 .logo {
     font-size:24px;
     font-weight: bold;
+    
 }
 
 ul {
@@ -32,6 +33,10 @@ li {
 
 .Lead-container {
     display:flex;
+    background-color:#1F2937;
+    gap: 50px;
+    padding-top:60px;
+    padding-bottom: 60px;
 }
 
 .Lead {
@@ -39,5 +44,37 @@ li {
     color: #F9FAF8;
     display:flex;
     flex-direction:column;
+    padding-left:140px;
+    flex:1 1 0;
+}
+
+.Lead-image-container {
+    display:flex;
+    flex: 1 1 0;
+    padding-right:140px;
+    justify-content: center;
+    align-items:center;
+}
+
+.Hero-main-text {
+    font-size:48px;
+    color:F9FAF8;
+    font-weight:bold;
+}
+
+.Hero-text {
+    font-size:18px;
+    color:E5E7EB;
+}
+
+button {
+    height:30px;
+    width:100px;
+    background-color: #3882F6;
+    margin:10px;
+    border-radius:4px;
+    border:none;
+    color:white;
+    font-weight:bold;
     
 }
